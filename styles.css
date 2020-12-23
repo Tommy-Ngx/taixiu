@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url("https://use.typekit.net/kvk5pkx.css");
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+/* General style for the page */
+html {
+  box-sizing: border-box;
+}
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+/* Style for the body */
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+body {
+    background-color:  white;
+}
+h1 {
+    /*font-family: 'Lobster', cursive;*/
+    font-family: 'montserrat-alternates', sans-serif;
+    font-size: 3rem;
+    color: #138086;
+    letter-spacing: 1px;
+}
+h2 {
+    margin: 20px;
+    /*font-family: 'Lobster', cursive;*/
+    font-family: 'montserrat-alternates', sans-serif;
+    font-family: "blenny",sans-serif;
+    text-shadow: 5px 2px 10px #FFC300;
+    font-size: 7rem;
+    color: #534666;
+    text-transform: uppercase;
+}
+p {
+    font-size: 2rem;
+    color: #232931;
+    font-family: 'montserrat', cursive;
+  }
+img {
+    width: 80%;
+}
+/* Style for the dice */
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 3em 0;
+}
+.play :hover {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #FFC300;
+  cursor:pointer;
+}
+span {
+    display: block;
+}
+span#player-selection, span#game-result{
+  display: inline-block;
+  text-transform: uppercase;
+  color: #138086;
+  font-size: 2rem;
+  font-weight: 900;
+}
+section.game-body{
+  background-color: #cccccc;
+  padding: 2px;
+}
+.game-action{
+    margin-top:30px;
+}
+.game-action button{
+  background:#138086;
+  padding: 18px 30px;
+  width: 300px;
+  color:white;
+  font-family: 'montserrat', cursive;
+  font-size: 2.5rem;
+  font-weight:600;
+  border:none;
+  margin: 50px 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 30px;
+}
+.game-action button:hover{
+  background:#FFC300;
+  color:#534666;
+}
+/* Style for the Footer */
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
